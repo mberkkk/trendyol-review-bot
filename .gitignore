@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+
+# ChromaDB local storage
+chroma_db/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+chroma_db_local/
+.github/

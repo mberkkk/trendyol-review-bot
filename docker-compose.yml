@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - CHROMA_PATH=./chroma_db
+      - SCRAPER_HEADLESS=true
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./app:/app/app
+    restart: unless-stopped

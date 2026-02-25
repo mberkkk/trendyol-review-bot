@@ -1,0 +1,35 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Settings & validation
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# Anthropic SDK
+anthropic==0.43.0
+
+# Vector DB & Embeddings
+chromadb==0.6.3
+sentence-transformers==3.4.0
+
+# Selenium scraper
+selenium==4.27.1
+webdriver-manager==4.0.2
+selenium-stealth==1.0.6
+
+# HTTP client (for tests)
+httpx==0.28.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.2
+pytest-cov==6.0.0
+
+# Linting
+ruff==0.9.2
+
+# Utils
+python-dotenv==1.0.1
